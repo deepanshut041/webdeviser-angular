@@ -1,0 +1,58 @@
+header{
+    background-color: rgb(42, 43, 57);
+    color: #ffffff;
+    background-image: url('../../../assets/screen-header.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header div.align-items-center{
+    height: 100vh;
+}
+
+header div div.header-icon{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+header div h1.header-heading{
+    margin: 15px;
+    margin-bottom: 30px;
+    font-weight: 200;
+    font-size: 42px;
+}
+
+header div h1.header-heading span{
+    font-weight: 800;
+}
+
+header div p.header-text{
+    margin: 15px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+header div div.header-buttons{
+    margin: 15px;
+    margin-bottom: 30px;
+}
+
+header div div.header-buttons button{
+    margin: 10px 20px;
+    min-width: 220px;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    background: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+header div div.header-buttons button:hover{
+    background: #ffffff;
+    color: rgb(42, 43, 57);
+}
