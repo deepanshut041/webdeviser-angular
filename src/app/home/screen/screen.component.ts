@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     moduleId: module.id,
-    selector: 'screen',
+    selector: 'home-screen',
     templateUrl: 'screen.component.html',
     styleUrls: ['screen.component.css']
 })
