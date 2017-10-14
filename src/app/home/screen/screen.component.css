@@ -66,3 +66,38 @@ header div button.header-mouse{
     font-weight: 800;
     background: transparent;
 }
+
+
+/* About us css start from here */
+
+article#about{
+    padding: 60px;
+    background-image: url('../../../assets/about-background.jpg');
+    background-size: cover;
+    background-position-x: 35%;
+}
+
+#about div.align-items-center{
+    min-height: 100vh;
+}
+
+#about div.col-6{
+    padding:50px;
+}
+#about div.col-6 img{
+    vertical-align: middle;
+}
+
+#about div.col{
+    padding: 15px;
+}
+
+#about div.col p.about-heading{
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#about div.col p.about-heading span{
+    font-weight: 900;
+}
