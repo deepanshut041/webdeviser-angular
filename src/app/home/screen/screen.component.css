@@ -104,20 +104,23 @@ section#about{
 }
 #about div.col div.hr-about{
     border: 1px solid #4bbdd5;
+    background: #4bbdd5;
     margin: 20px;
     margin-left: 0px;
     width: 310px;
 }
 #about div.col p.p-second{
     font-size: 16px;
+    margin-right: 5vw;
     font-weight: 300;
-    color: #5f727f;
+    color: #4e555a;
 }
 #about div.col button{
-    font-size: 22px;
-    margin-top: 50px;
-    padding: 10px 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 8px 30px;
     border: 1px solid #fff;
+    border-radius: 2px;
     background: transparent;
     color: #fff;
     -webkit-transition: all  .3s ease-out;
@@ -127,5 +130,33 @@ section#about{
 #about div.col button:hover{
     background: #fff;
     color: #4bbdd5;
+}
+
+/*Now working on why choose us"*/
+article#whyus{
+    padding: 80px 0px;
+    background-color: rgba(245,245,245,.6);
+}
+#whyus div.display-title {
+    font-size: 38px;
+    margin-bottom: 50px;
+    font-weight: 100;
+    color: #3c3950;
+}
+#whyus div.display-title span{
+    font-weight: 900;
+}
+#whyus div.why-card{
+    width: 240px;
+    margin: auto;  
+}
+#whyus div.why-card img{
+    width: 60%;
+    margin:20px auto;
+    margin-top: 50px;
+}
+#whyus div.why-card h5 {
+    color: #4bbdd5;
+    margin: 10px;
 }
 
