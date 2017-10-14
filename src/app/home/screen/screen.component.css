@@ -82,7 +82,7 @@ section#about{
     padding: 60px 30px;
     
     background-size: cover;
-    background: linear-gradient(140deg, rgba(255, 255, 255, 0), rgba(73, 193, 209, 0.555));
+   
     min-height: 100vh;    
 }
 #about div.col{
@@ -98,7 +98,7 @@ section#about{
     font-weight: bold;
 }
 #about div.col p.p-first{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 0;
     color: #5f727f;
 }
@@ -110,7 +110,7 @@ section#about{
     width: 310px;
 }
 #about div.col p.p-second{
-    font-size: 16px;
+    font-size: 14px;
     margin-right: 5vw;
     font-weight: 300;
     color: #4e555a;
@@ -132,11 +132,12 @@ section#about{
     color: #4bbdd5;
 }
 
-/*Now working on why choose us"*/
+/* why choose us"*/
 article#whyus{
     padding: 80px 0px;
     background-color: rgba(245,245,245,.6);
 }
+
 #whyus div.display-title {
     font-size: 38px;
     margin-bottom: 50px;
@@ -150,6 +151,18 @@ article#whyus{
     width: 240px;
     margin: auto;  
 }
+#whyus div.col-sm-6{
+    padding: 10px;
+    -webkit-transition: transform .3s ;
+    -moz-transition: transform .3s ;
+    transition: transform .3s ;
+}
+#whyus div.col-sm-6:hover{
+    background: #fff;
+    box-shadow:8px 20px 20px -2px hsla(0, 0%, 70%, .14);
+    transform: translateY(-20px);
+    cursor: pointer;
+}
 #whyus div.why-card img{
     width: 60%;
     margin:20px auto;
@@ -160,3 +173,49 @@ article#whyus{
     margin: 10px;
 }
 
+/* ----Sevices ----*/
+article#service{
+    padding: 80px 10px;
+    background-image: url('../../../assets/service-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#service div.display-4{
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+#service div.container div.col-md-4{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#service div.service-card{
+    margin: 5px 15px;
+    height: 100%;
+    padding: 18px;
+    background: rgba(32, 37, 52, 0.808);
+}
+
+#service div.service-card i{
+    margin: 30px;
+}
+#service div.service-card p{
+    margin-top: 20px;
+    font-size: 12px;
+    min-height: 180px;
+}
+#service div.service-card button{
+    border: 1px solid #4bbdd5;
+    color: white;
+    min-width: 150px;
+    padding: 10px;
+    background: transparent;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+#service div.service-card button:hover{
+    background: #4bbdd5;
+}
