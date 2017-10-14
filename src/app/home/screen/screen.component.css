@@ -173,6 +173,44 @@ article#whyus{
     margin: 10px;
 }
 
+/*----Techonolgy-----*/
+#tech{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#tech div.row{
+    margin: 0px;
+    padding: 0px;
+}
+#tech div.col-md-4{
+    padding: 100px 50px;
+}
+#tech div.col-md-4 img{
+    width: 200px;
+    height: 200px;
+}
+#tech div.tech-1{
+    background: #393d50!important
+}
+#tech div.tech-2{
+    background: #383a39!important;
+}
+#tech div.tech-3{
+    background: #ffcd54!important;
+}
+#tech div.tech-4{
+    background: #ed4e46!important;
+}
+#tech div.tech-5{
+    background: #e15260!important;
+}
+#tech div.tech-6{
+    background: #f99740!important;
+}
+
+
+
 /* ----Sevices ----*/
 article#service{
     padding: 80px 10px;
