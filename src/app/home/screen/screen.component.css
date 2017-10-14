@@ -42,10 +42,12 @@ header div div.header-buttons{
 header div div.header-buttons button{
     margin: 10px 20px;
     min-width: 220px;
-    border: 1px solid #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #4bbdd5;
     border-radius: 30px;
     background: transparent;
-    color: #ffffff;
+    color: #4bbdd5;
     text-transform: uppercase;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -53,8 +55,8 @@ header div div.header-buttons button{
 }
 
 header div div.header-buttons button:hover{
-    background: #ffffff;
-    color: rgb(42, 43, 57);
+    background: #4bbdd5;
+    color: #fff;
 }
 
 header div button.header-mouse{
@@ -69,35 +71,61 @@ header div button.header-mouse{
 
 
 /* About us css start from here */
-
-article#about{
-    padding: 60px;
+section#about{
     background-image: url('../../../assets/about-background.jpg');
+    background-position-x: 65%;
+    background-position-y: 30%;
+    color: #333;
+}
+
+#about article{
+    padding: 60px 30px;
+    
     background-size: cover;
-    background-position-x: 35%;
+    background: linear-gradient(140deg, rgba(255, 255, 255, 0), rgba(73, 193, 209, 0.555));
+    min-height: 100vh;    
 }
-
-#about div.align-items-center{
-    min-height: 100vh;
-}
-
-#about div.col-6{
-    padding:50px;
-}
-#about div.col-6 img{
-    vertical-align: middle;
-}
-
 #about div.col{
-    padding: 15px;
+    padding: 1vw;
 }
 
 #about div.col p.about-heading{
-    font-size: 50px;
     margin-bottom: 50px;
     font-weight: 100;
     text-transform: uppercase;
 }
 #about div.col p.about-heading span{
-    font-weight: 900;
+    font-weight: bold;
 }
+#about div.col p.p-first{
+    font-size: 22px;
+    font-weight: 0;
+    color: #5f727f;
+}
+#about div.col div.hr-about{
+    border: 1px solid #4bbdd5;
+    margin: 20px;
+    margin-left: 0px;
+    width: 310px;
+}
+#about div.col p.p-second{
+    font-size: 16px;
+    font-weight: 300;
+    color: #5f727f;
+}
+#about div.col button{
+    font-size: 22px;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    -webkit-transition: all  .3s ease-out;
+    -moz-transition: all  .3s ease-out;
+    transition: all  .3s ease-out;
+}
+#about div.col button:hover{
+    background: #fff;
+    color: #4bbdd5;
+}
+
