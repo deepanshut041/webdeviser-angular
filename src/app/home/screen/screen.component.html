@@ -40,6 +40,31 @@
     </article>
 </section>
 
+
+<!-- Technology -->
+<article id="tech">
+    <div class="row text-center">
+        <div class="col-md-2 col-sm-4 col-6 tech-1">
+            <img src="../../../assets/tech-1.png" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 tech-2">
+            <img src="../../../assets/tech-2.png" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 tech-3">
+            <img src="../../../assets/tech-3.svg" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 tech-4">
+            <img src="../../../assets/tech-4.svg" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 tech-5">
+            <img src="../../../assets/tech-5.png" class="img-fluid">
+        </div>
+        <div class="col-md-2 col-sm-4 col-6 tech-6">
+            <img src="../../../assets/tech-6.png" class="img-fluid">
+        </div>
+    </div>
+</article>
+
 <!-- Why choose us -->
 <article id="whyus">
     <div class="container">
@@ -134,52 +159,29 @@
     </div>
 </article>
 
-<!-- Technology -->
-<article id="tech">
-        <div class="row text-center">
-            <div class="col-md-4 col-sm-6 col-12 tech-1">
-                <img src="../../../assets/tech-1.png" class="img-fluid">
-            </div>
-            <div class="col-md-4 col-sm-6 col-12 tech-2">
-                <img src="../../../assets/tech-2.png" class="img-fluid">
-            </div>
-            <div class="col-md-4 col-sm-6 col-12 tech-3">
-                <img src="../../../assets/tech-3.svg" class="img-fluid">
-            </div>
-            <div class="col-md-4 col-sm-6 col-12 tech-4">
-                    <img src="../../../assets/tech-4.svg" class="img-fluid">
-                </div>
-            <div class="col-md-4 col-sm-6 col-12 tech-5">
-                <img src="../../../assets/tech-5.png" class="img-fluid">
-            </div>
-            <div class="col-md-4 col-sm-6 col-12 tech-6">
-                <img src="../../../assets/tech-6.png" class="img-fluid">
-            </div>
-        </div>
-    </article>
     
 <!--Frequently asked questions -->
 <article id="questions">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 col-md-9 col-12">
-                <h1>FREQUENTLY ASKED QUESTIONS</h1>
+                <h2>FREQUENTLY ASKED QUESTIONS</h2>
                 <div class="question-card">
-                    <div><h5><i class="fa fa-plus-square"></i> What does the package include?</h5></div>
+                    <div><h5><i class="fa fa-plus-square" (click)="question(1)"></i> What does the package include?</h5></div>
                     <hr>
-                    <p style="display:none">When you buy a website, we make your website and you also get free maintenance for one year.
+                    <p style="display:block" id="question-1">When you buy a website, we make your website and you also get free maintenance for one year.
                          We also provide you CMS so that you can change the content of your website yourself.</p>
                 </div>
                 <div class="question-card">
-                    <div><h5><i class="fa fa-plus-square"></i> What is the typical response time for a support question?</h5></div>
+                    <div><h5><i class="fa fa-plus-square"  (click)="question(2)"></i> What is the typical response time for a support question?</h5></div>
                     <hr>
-                    <p style="display:none">Since you report us a support question we try to make our best to find out what is going on,
+                    <p style="display:none" id="question-2">Since you report us a support question we try to make our best to find out what is going on,
                          depending on the case it could take more or less time, however a standard time could be minutes or hours.</p>
                 </div>
                 <div class="question-card">
-                    <div><h5><i class="fa fa-plus-square"></i> What do I need to know to optimize my website?</h5></div>
+                    <div><h5><i class="fa fa-plus-square" (click)="question(3)"></i> What do I need to know to optimize my website?</h5></div>
                     <hr>
-                    <p style="display:none"> There is no need of any technical knowledge for optimizing the website.
+                    <p style="display:none" id="question-3"> There is no need of any technical knowledge for optimizing the website.
                          Its just like updating profile picture or status in any social media website. </p>
                 </div>
             </div>
@@ -199,12 +201,12 @@
                     <button data-toggle="modal" data-target="#feedback">FEEDBACK</button>
                 </div>
                 <p>Our Customer Services provides support and guidence for any query regarding this Organisation. They also
-                    provide assistance in your learning phase of Robotics wheather your are a school student or college student.</p>
+                    provide assistance in your learning phase of Web Development wheather your are a school student or college student.</p>
                 <br>
                 <h5>CONNECT WITH US:</h5>
-                <p>We like to work with people who want to create new oppertunities for Children, something big even if its
-                    outrageously insane. The quality of products we deliver is unmatchable. To help grow your children's
-                    knowledge and personality as well, connect with us.</p>
+                <p>We like to work with people who want to create new oppertunities for Students, something big even if its
+                    outrageously insane. The quality of products we deliver is unmatchable. To help grow
+                    your idea into reality, connect with us.</p>
                 <p>You can give us a call on
                     <span>
                         <i class="fa fa-phone"></i> +91-7053831001</span> or

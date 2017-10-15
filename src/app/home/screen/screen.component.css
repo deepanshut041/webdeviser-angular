@@ -183,17 +183,14 @@ article#whyus{
     margin: 0px;
     padding: 0px;
 }
-#tech div.col-md-4{
-    padding: 80px 50px;
-}
-#tech div.col-md-4 img{
-    width: 200px;
-    height: 200px;
+#tech div.col-md-2{
+    padding: 40px 40px;
 }
 #tech div.tech-1{
     background: #393d50!important
 }
 #tech div.tech-2{
+    padding-top: 70px;
     background: #383a39!important;
 }
 #tech div.tech-3{
@@ -203,6 +200,7 @@ article#whyus{
     background: #ed4e46!important;
 }
 #tech div.tech-5{
+    padding-top: 57px;
     background: #e15260!important;
 }
 #tech div.tech-6{
@@ -267,12 +265,13 @@ article#service{
     background-size: cover;
 }
 
-#questions h1{
-    margin-bottom: 60px;
+#questions h2{
+    margin-bottom: 80px;
     font-weight: 900;
 }
 
 #questions div.question-card{
+    margin-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -314,34 +313,35 @@ article#contact {
   }
   
   #contact button:hover {
-    border: 2px solid #fed136;
+    border: 2px solid #4bbdd5;
     padding: 15px 40px;
     margin-bottom: 5px !important;
-    background-color: #fed136;
+    background-color: #4bbdd5;
     font-size: 14px;
     color: #222222;
   }
   
   #contact p {
     font-weight: 500;
-    padding: 20px 80px;
+    padding: 20px 50px;
     font-size: 12px;
     letter-spacing: 0.4px;
     line-height: 20px;
   }
   
   #contact p span {
-    color: #fed136;
+      margin-bottom: 10px;
+    display: inline-block;
+    color: #4bbdd5;
     padding: 5px 10px;
-    margin: 0 10px;
-    border: 1px solid #fed136;
+    border: 1px solid #4bbdd5;
     border-radius: 20px;
   }
   
   
   /* Modals css here  */
   
-  #modal-style h2{text-align: center;font-size: 19px;background-color: #ffc500;margin: 0;color: #111;font-weight: 700;padding: 20px;}
+  #modal-style h2{text-align: center;font-size: 19px;background-color: #4bbdd5;margin: 0;color: #111;font-weight: 700;padding: 20px;}
   #modal-style h3{padding: 10px 30px;font-size: 16px;letter-spacing: 0.2px;font-weight: 100;text-transform: initial;}
   #modal-style p{padding: 0 30px;font-size: 12px;font-weight: 400;text-transform: inherit;}
   #modal-style input{
@@ -351,7 +351,7 @@ article#contact {
     border: none;
     border-radius: 0;
     box-shadow: none;
-    /* color: #ffc500; */
+     color: #4bbdd5; 
     font-weight: 700;
     letter-spacing: 1px;
   }
