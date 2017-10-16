@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(42, 43, 57);
+    background-color: rgba(75, 57, 40, 0.808);
     color: #ffffff;
     background-image: url('../../../assets/screen-header.jpg');
     background-position: center;
@@ -8,7 +8,7 @@ header{
 }
 
 header div.align-items-center{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header div div.header-icon{
@@ -41,8 +41,7 @@ header div div.header-buttons{
 
 header div div.header-buttons button{
     margin: 10px 20px;
-    min-width: 220px;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 18px;
     border: 1px solid #4bbdd5;
     border-radius: 30px;
@@ -67,6 +66,11 @@ header div button.header-mouse{
     color: #ffffff;
     font-weight: 800;
     background: transparent;
+}
+
+header #touch{
+    background: rgba(32, 37, 52, 0.808);
+    padding: 40px 20px;  
 }
 
 
@@ -259,7 +263,7 @@ article#service{
 /* Frequently Asked Questions */
 
 #questions{
-    padding: 80px 100px; 
+    padding: 80px 20px; 
     min-height: 100vh;
     background-image: url('../../../assets/question-background.jpg');
     background-size: cover;
